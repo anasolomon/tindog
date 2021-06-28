@@ -69,6 +69,7 @@ h3 {
 
 p {
   color: #8f8f8f;
+  font-weight: 400;
 }
 
 .center {
@@ -111,4 +112,13 @@ p {
 .press-img {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.card-padding{
+  padding: 3% 2%;
 }
