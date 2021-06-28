@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 15% 5%;
 }
 
 h1 {
@@ -47,9 +47,9 @@ h1 {
 
 /* Title Image */
 .title-image {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
-  position:absolute;
+  position: absolute;
   right: 30%;
 }
 
@@ -127,4 +127,48 @@ p {
 
 .card-padding {
   padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.h1toh3 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  margin: 7% 15% ;
+}
+
+.footer-icon {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer-p {
+  font-family: 'Montserrat';
+  font-size: 900;
+  padding-top: 1%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
 }
